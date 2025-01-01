@@ -1,0 +1,23 @@
+{
+    "avatar" : "",
+    "name" : "Mubasshir Farooqui",
+    "designation" : "Web Developer",
+    "userDetails" : [
+        {
+            "field":"Email",
+            "value":"94.farooqui@gmail.com"
+        },
+        {
+            "field":"Phone",
+            "value":"+971554306843"
+        },
+        {
+            "field":"Birthday",
+            "value":"June 29 , 1994"
+        },
+        {
+            "field":"Location",
+            "value":"Abu Dhabi, UAE"
+        }
+    ]
+}
