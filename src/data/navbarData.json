@@ -1,0 +1,23 @@
+
+    [
+        {
+            "navItem" : "About",
+            "navLink" : "/"
+        },
+        {
+            "navItem" : "Resume",
+            "navLink" : "/resume"
+        },
+        {
+            "navItem" : "Portfolio",
+            "navLink" : "/portfolio"
+        },
+        {
+            "navItem" : "Blog",
+            "navLink" : "/blog"
+        },
+        {
+            "navItem" : "Contact",
+            "navLink" : "/contact"
+        }
+    ]
