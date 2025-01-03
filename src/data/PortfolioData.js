@@ -1,43 +1,56 @@
+import TaskManagement from './../assets/Projects/task_management_system.jpg'
+import BloggingPlatform from './../assets/Projects/Narrato-Bloggin-Website.png'
+import Ecommerce from './../assets/Projects/E-Commerce-Store.png'
+import ChatApp from './../assets/Projects/chat-app.png'
+import HotelBooking from './../assets/Projects/hoteling.png'
+import SocialMedia from './../assets/Projects/social-media.png'
+import OnlineLearningPlatform from './../assets/Projects/online-learning-platform.png'
+import ExpenseTracker from './../assets/Projects/expense-tracker.png'
+import QnAPlatform from './../assets/Projects/online-qa-platform.png'
+import PasswordManager from './../assets/Projects/password-manager.png'
+
+
+
 export const projects = [
   {
     title: "Task Management Application",
-    image: "",
+    image: TaskManagement,
   },
   {
     title: "Blogging Platform",
-    image: "",
+    image: BloggingPlatform,
   },
   {
     title: "E-Commerce Store",
-    image: "",
+    image: Ecommerce,
   },
   {
     title: "Real-Time Chat Application",
-    image: "",
+    image: ChatApp,
   },
   {
     title: "Hotel Booking System",
-    image: "",
+    image: HotelBooking,
   },
   {
     title: "Social Media Platform",
-    image: "",
+    image: SocialMedia,
   },
   {
     title: "Online Learning Platform",
-    image: "",
+    image: OnlineLearningPlatform,
   },
   {
     title: "Expense Tracker",
-    image: "",
+    image: ExpenseTracker,
   },
   {
     title: "Q&A Web Application",
-    image: "",
+    image: QnAPlatform,
   },
 
   {
     title: "Advanced Password Manager",
-    image: "",
+    image: PasswordManager,
   },
 ];
