@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "./../data/HomePageData";
+import { education, experiences } from "./../data/HomePageData";
 
 const Resume = () => {
   return (
@@ -14,15 +14,15 @@ const Resume = () => {
         <div className="border-l border-text_yellow pb-6 relative">
           <div className="absolute -top-2 -left-6 bg-gradient-to-br from-text_yellow/30 via-transparent to-background_primary p-[1px] rounded-[10px] shadow-md">
             <div className=" bg-background_secondary p-[12px] rounded-[9px]">
-              <img src={education.icon} className="opacity-80 w-6 h-6" />
+              <img src={experiences.icon} className="opacity-80 w-6 h-6" />
             </div>
           </div>
-          <h2 className="text-2xl font-semibold text-white px-8">
-            {education.title}
+          <h2 className="text-2xl font-semibold text-white px-12">
+            {experiences.title}
           </h2>
         </div>
         <div className=" flex flex-col">
-          {education.degrees.map((degree, index) => (
+          {experiences.experience.map((exp, index) => (
             <div
               className={` text-sm flex flex-col gap-2 ${
                 index < 2 ? "border-l" : ""
@@ -31,10 +31,12 @@ const Resume = () => {
               <div className="w-4 h-4 bg-background_ternary rounded-full absolute top-0 -left-2 flex items-center justify-center">
                 <div className="w-2 h-2 bg-text_yellow rounded-full"></div>
               </div>
-              <p className=" px-8 font-semibold text-white">{degree.title}</p>
-              <p className=" px-8 text-text_yellow opacity-80">{degree.year}</p>
-              <p className=" px-8 text-white opacity-60">
-                {degree.description}
+              <p className=" px-12 font-semibold text-white">{exp.title}</p>
+              <p className=" px-12 text-text_yellow opacity-80">
+                {exp.year}
+              </p>
+              <p className=" px-12 text-white opacity-60">
+                {exp.description}
               </p>
             </div>
           ))}
@@ -49,7 +51,7 @@ const Resume = () => {
               <img src={education.icon} className="opacity-80 w-6 h-6" />
             </div>
           </div>
-          <h2 className="text-2xl font-semibold text-white px-8">
+          <h2 className="text-2xl font-semibold text-white px-12">
             {education.title}
           </h2>
         </div>

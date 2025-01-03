@@ -56,3 +56,27 @@ export const education = {
     },
   ],
 };
+
+export const experiences = {
+  title: "Experience",
+  icon: EducationIcon,
+  experience: [
+    {
+      title: "Fullstack Intern - Intellipaat Software Solutions",
+      year: "2023 - 2024",
+      description:
+        "Assisted in developing and maintaining full-stack web applications using modern frameworks and tools. Collaborated with cross-functional teams to implement features, debug issues, and ensure seamless user experiences.",
+    },
+    {
+      title: "Senior Network Engineer - Mauqah Technology LLC",
+      year: "2018 - Present",
+      description:
+        "Designed, implemented, and maintained enterprise-level network infrastructure to ensure optimal performance and security. Led troubleshooting efforts, managed network upgrades, and provided mentorship to junior engineers.",
+    },
+    {
+      title: "IT & Network Support - AppDev Technologies",
+      year: "2015 - 2017",
+      description: "IT & Network Support Provided technical support for IT systems and network infrastructure, ensuring minimal downtime and efficient operations. Managed hardware, software, and network troubleshooting while assisting with system upgrades and maintenance.",
+    },
+  ],
+};
